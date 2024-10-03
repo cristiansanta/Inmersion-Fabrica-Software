@@ -1,0 +1,615 @@
+{
+	"info": {
+		"_postman_id": "a60f7cf8-f208-403a-bcdb-7ec212b6c174",
+		"name": "SENA Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37668349"
+	},
+	"item": [
+		{
+			"name": "Regionales",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nombre\": \"Antioquia\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/regionales",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"regionales"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Regionales",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/regionales",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"regionales"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Regionales",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/regionales/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"regionales",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Regionales",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Antioquia Actualizado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/regionales/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"regionales",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Regionales",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/regionales/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"regionales",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Centro de Formacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Centro de Tecnología de Antioquia\",\r\n    \"regionalId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/centros-formacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"centros-formacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Centro de Formacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/centros-formacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"centros-formacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Centro de Formacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/centros-formacion/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"centros-formacion",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Centro de Formacion",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Centro de Tecnología de Antioquia ACTUALIZADO\",\r\n    \"regionalId\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/centros-formacion/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"centros-formacion",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Centro de Formacion",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/centros-formacion/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"centros-formacion",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fuentes de Financiacion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Presupuesto Institucional\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/fuentes-financiacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"fuentes-financiacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fuentes de Financiacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/fuentes-financiacion",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"fuentes-financiacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fuentes de Financiacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/fuentes-financiacion/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"fuentes-financiacion",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fuentes de Financiacion",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nombre\": \"Presupuesto Institucional Actualizado\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/fuentes-financiacion/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"fuentes-financiacion",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fuentes de Financiacion",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/fuentes-financiacion/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"fuentes-financiacion",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gira Tecnica",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"regionalId\": 1,\r\n    \"centroFormacionId\": 1,\r\n    \"fuenteFinanciacionId\": 1,\r\n    \"objetivoGeneral\": \"Aprender nuevas tecnologías\",\r\n    \"resultadoEsperado\": \"Mejora en habilidades técnicas\",\r\n    \"valorTotal\": 5000000,\r\n    \"observaciones\": \"Gira de una semana\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/giras-tecnicas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"giras-tecnicas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gira Tecnica",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/giras-tecnicas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"giras-tecnicas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gira Tecnica",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/giras-tecnicas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"giras-tecnicas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gira Tecnica",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"regionalId\": 1,\r\n    \"centroFormacionId\": 1,\r\n    \"fuenteFinanciacionId\": 1,\r\n    \"objetivoGeneral\": \"Aprender nuevas tecnologías\",\r\n    \"resultadoEsperado\": \"Mejora en habilidades técnicas\",\r\n    \"valorTotal\": 12000000,\r\n    \"observaciones\": \"Gira de una semana\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/giras-tecnicas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"giras-tecnicas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Gira Tecnica",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/giras-tecnicas/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"giras-tecnicas",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Participante",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"giraTecnicaId\": 1,\r\n    \"nombre\": \"Juan Pérez\",\r\n    \"rol\": \"Estudiante\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/participantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"participantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Participante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/participantes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"participantes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Participante",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/participantes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"participantes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Participante",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"giraTecnicaId\": 1,\r\n    \"nombre\": \"Juan Pérez Calambas\",\r\n    \"rol\": \"Estudiante\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/participantes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"participantes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Participante",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/participantes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"participantes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
