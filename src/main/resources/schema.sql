@@ -41,3 +41,10 @@ CREATE TABLE IF NOT EXISTS participantes (
         rol VARCHAR(255) NOT NULL,
         FOREIGN KEY (gira_tecnica_id) REFERENCES giras_tecnicas(id)
     );
+
+-- Crear tabla usuarios
+CREATE TABLE IF NOT EXISTS usuarios (
+    id SERIAL PRIMARY KEY,
+    username VARCHAR(255) UNIQUE NOT NULL,
+    password VARCHAR(255) NOT NULL
+);
