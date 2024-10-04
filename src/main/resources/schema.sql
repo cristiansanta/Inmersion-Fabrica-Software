@@ -48,3 +48,9 @@ CREATE TABLE IF NOT EXISTS usuarios (
     username VARCHAR(255) UNIQUE NOT NULL,
     password VARCHAR(255) NOT NULL
 );
+
+--Create tabla roles
+CREATE TABLE IF NOT EXISTS roles(
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(20) NOT NULL
+);
